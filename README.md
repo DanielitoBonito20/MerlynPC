@@ -84,5 +84,143 @@ Este script de configuración del registro de Windows realiza varias tareas para
 
 25. **Configuración de Tipos de Archivos de Riesgo Moderado**:
     - Configura la lista de tipos de archivos de riesgo moderado y deshabilita la advertencia de verificación del editor.
+26. **Deshabilitar Fault Tolerant Heap (FTH)**:
+   - Deshabilita la característica FTH para mejorar la estabilidad de las aplicaciones al evitar correcciones automáticas de compatibilidad relacionadas con la gestión de memoria.
 
-Este script debe ejecutarse con privilegios de administrador para aplicar todos los cambios en el registro de Windows.
+27. **Deshabilitar Core Isolation**:
+   - Deshabilita la seguridad basada en virtualización de Windows (VBS) para permitir que el sistema funcione sin esta capa adicional de protección.
+
+28. **Establecer la Política de Ejecución de PowerShell en 'Unrestricted'**:
+   - Configura la política de ejecución de PowerShell en 'Unrestricted' para permitir la ejecución de scripts sin restricciones.
+
+29. **Configurar Actualizaciones de Windows**:
+   - Deshabilita las actualizaciones automáticas de Windows hasta el año 2038.
+   - Deshabilita las notificaciones de actualización y otras características relacionadas con las actualizaciones.
+
+30. **Deshabilitar Sincronización**:
+   - Deshabilita varias características de sincronización, incluyendo la sincronización de configuraciones, aplicaciones, credenciales, temas, personalización, menú de inicio y navegador.
+
+31 **Configuración de DirectX Graphics Kernel**:
+   - Configura varios parámetros del kernel de gráficos DirectX para mejorar el rendimiento y la estabilidad del sistema.
+   - 
+31. **Controlar la velocidad del tráfico de red para aplicaciones multimedia**:
+   - Establece la velocidad del tráfico de red para aplicaciones multimedia.
+
+32. **Controlar la prioridad de las aplicaciones multimedia en el sistema**:
+   - Establece la prioridad de las aplicaciones multimedia en el sistema.
+
+33. **Deshabilitar la escritura diferida en disco para aplicaciones multimedia**:
+   - Deshabilita la escritura diferida en disco para aplicaciones multimedia.
+
+34. **Establecer el tiempo de espera antes de escribir en disco en modo de escritura diferida**:
+   - Establece el tiempo de espera antes de escribir en disco en modo de escritura diferida.
+
+35. **Controlar la prioridad de los procesos en el sistema**:
+   - Controla la prioridad de los procesos en el sistema.
+
+36. **Deshabilitar la ejecución de programas que se ejecutan al inicio del sistema**:
+   - Deshabilita la ejecución de programas que se ejecutan al inicio del sistema.
+
+37. **Deshabilitar Smart App Control**:
+   - Deshabilita Smart App Control.
+
+38. **Controlar la desasignación de memoria en el sistema**:
+   - Controla la desasignación de memoria en el sistema.
+
+39. **Controlar el tamaño de la caché del sistema de archivos**:
+   - Controla el tamaño de la caché del sistema de archivos.
+
+40. **Deshabilitar Intel TSX**:
+    - Deshabilita Intel TSX.
+
+41. **Corregir la caída de puntuación de la CPU en benchmarks 24H2**:
+    - Corrige la caída de puntuación de la CPU en benchmarks 24H2.
+
+42. **Controlar la distribución de temporizadores en el sistema**:
+    - Controla la distribución de temporizadores en el sistema.
+
+43. **Habilitar TRIM para SSDs**:
+    - Habilita TRIM para SSDs.
+
+44. **Deshabilitar la compresión automática de archivos NTFS**:
+    - Deshabilita la compresión automática de archivos NTFS.
+
+45. **Deshabilitar el cifrado del archivo de paginación**:
+    - Deshabilita el cifrado del archivo de paginación.
+
+46. **Deshabilitar la actualización de la marca de tiempo de acceso**:
+    - Deshabilita la actualización de la marca de tiempo de acceso.
+
+47. **Establecer el intervalo de notificaciones de cuota de disco**:
+    - Establece el intervalo de notificaciones de cuota de disco.
+
+48. **Deshabilitar la creación de nombres de archivo en formato 8.3**:
+    - Deshabilita la creación de nombres de archivo en formato 8.3.
+
+49. **Deshabilitar Multi Plane Overlay**:
+    - Deshabilita Multi Plane Overlay.
+
+50. **Deshabilitar aplicaciones UWP en segundo plano**:
+    - Deshabilita aplicaciones UWP en segundo plano.
+
+51. **Configurar políticas de recursos**:
+    - Configura políticas de recursos.
+
+52. **Deshabilitar anuncios en la configuración y el menú de inicio**:
+    - Deshabilita anuncios en la configuración y el menú de inicio.
+
+53. **Eliminar anuncios de la aplicación de configuración**:
+    - Elimina anuncios de la aplicación de configuración.
+
+54. **Deshabilitar anuncios en la pantalla de bloqueo (Spotlight)**:
+    - Deshabilita anuncios en la pantalla de bloqueo (Spotlight).
+
+55. **Deshabilitar 'Mostrarme notificaciones en la aplicación de configuración'**:
+    - Deshabilita 'Mostrarme notificaciones en la aplicación de configuración'.
+
+56. **Deshabilitar 'Obtener consejos y sugerencias al usar Windows'**:
+    - Deshabilita 'Obtener consejos y sugerencias al usar Windows'.
+
+57. **No mostrarme la experiencia de bienvenida de Windows después de las actualizaciones y ocasionalmente cuando inicie sesión para resaltar lo nuevo y sugerido**:
+    - No muestra la experiencia de bienvenida de Windows después de las actualizaciones y ocasionalmente cuando inicia sesión para resaltar lo nuevo y sugerido.
+
+58. **Deshabilitar recomendaciones personalizadas**:
+    - Deshabilita recomendaciones personalizadas.
+
+59. **Sugerir formas de aprovechar al máximo Windows y terminar de configurar este dispositivo**:
+    - Sugiere formas de aprovechar al máximo Windows y terminar de configurar este dispositivo.
+
+60. **Deshabilitar experiencias personalizadas**:
+    - Deshabilita experiencias personalizadas.
+
+61. **Deshabilitar "Incluir información basada en la cuenta, reciente, favorita y recomendada" para OneDrive en el Explorador de archivos**:
+    - Deshabilita "Incluir información basada en la cuenta, reciente, favorita y recomendada" para OneDrive en el Explorador de archivos.
+
+62. **Parche simple para el archivo hosts de Windows, que hace que el cliente de Outlook deje de mostrar esos molestos anuncios en tu bandeja de entrada**:
+    - Aplica un parche simple para el archivo hosts de Windows, que hace que el cliente de Outlook deje de mostrar esos molestos anuncios en tu bandeja de entrada.
+
+63. **No mostrarme anuncios personalizados usando mi ID de publicidad**:
+    - No muestra anuncios personalizados usando mi ID de publicidad.
+
+64. **Deshabilitar IDs de publicidad**:
+    - Deshabilita IDs de publicidad.
+
+65. **Deshabilitar la recopilación de datos**:
+    - Deshabilita la recopilación de datos.
+
+66. **Deshabilitar la recopilación de datos de Windows Defender**:
+    - Deshabilita la recopilación de datos de Windows Defender.
+
+67. **Configurar Autologgers**:
+    - Configura Autologgers.
+
+68. **Configurar hosts para bloquear telemetría**:
+    - Configura hosts para bloquear telemetría.
+
+69. **Deshabilitar tareas programadas de telemetría**:
+    - Deshabilita tareas programadas de telemetría.
+
+70. **Deshabilitar telemetría de DotNet**:
+    - Deshabilita telemetría de DotNet.
+
+
