@@ -33,8 +33,7 @@ Este script de configuración del registro de Windows realiza varias tareas para
 12. **Deshabilitar Mantenimiento Automático**
 13. **Deshabilitar Actualizaciones Automáticas de Controladores**
 14. **Deshabilitar Actualizaciones de Características**
-15. **Deshabilitar Notificaciones de Actualización**
-16. **Deshabilitar Actualizaciones Automáticas en Windows Media Player**
+15. **Deshabilitar Actualizaciones Automáticas en Windows Media Player**
 17. **Prevenir Actualizaciones para DevHome y Outlook**
 18. **Ocultar Notificaciones de Actualización de Windows**
 19. **Controlar Visibilidad del Icono de Estado de Windows Update en la Barra de Tareas**
